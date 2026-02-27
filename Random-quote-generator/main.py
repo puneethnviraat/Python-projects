@@ -11,6 +11,6 @@ quotes = [
 ]
 
 print("💬 Welcome to the Quote Machine!")
-
-quote=random.choice(quotes)
-print("here is your quote :", quote)
+quote = random.choice(quotes)
+print("✨ Here's your quote:")
+print("👉 {}".format(quote))  # or use: print(f"👉 {quote}")
